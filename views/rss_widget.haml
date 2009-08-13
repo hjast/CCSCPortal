@@ -1,0 +1,20 @@
+-require 'feed-normalizer'
+-require 'open-uri'
+-feed = FeedNormalizer::FeedNormalizer.parse open(widget.feed_url)  
+
+#feed
+	#title 
+		Title
+		= feed.title # => "International Herald Tribune"
+	#url 
+		URl
+		= feed.url
+	#posts
+		%h1 Posts
+		%ul
+		-widget.number_of_posts.times do |i|
+			%h4= feed.entries[i].title
+			%h5= feed.entries[i].url
+		
+	
+	
