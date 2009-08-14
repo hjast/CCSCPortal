@@ -16,3 +16,4 @@ config.action_controller.perform_caching             = false
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
 config.gem 'cwninja-inaction_mailer', :lib => 'inaction_mailer/force_load', :source => 'http://gems.github.com'
+config.middleware.use "Rack::Bug"
