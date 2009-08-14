@@ -9,9 +9,27 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
+test: &TEST
   adapter: sqlite3
   database: db/test.sqlite3
+  pool: 5
+  timeout: 5000
+
+test2:
+  adapter: sqlite3
+  database: db/tes2t.sqlite3
+  pool: 5
+  timeout: 5000
+
+test3:
+  adapter: sqlite3
+  database: db/test3.sqlite3
+  pool: 5
+  timeout: 5000
+
+test4:
+  adapter: sqlite3
+  database: db/test4.sqlite3
   pool: 5
   timeout: 5000
 
@@ -20,3 +38,12 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+
+staging:
+  adapter: sqlite3
+  database: db/staging.sqlite3
+  pool: 5
+  timeout: 5000
+
+cucumber:
+ <<: *TEST
