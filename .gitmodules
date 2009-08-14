@@ -1,0 +1,39 @@
+[submodule "vendor/plugins/parallel_specs"]
+	path = vendor/plugins/parallel_specs
+	url = git://github.com/jasonm/parallel_specs.git
+[submodule "vendor/plugins/live_validations"]
+	path = vendor/plugins/live_validations
+	url = git://github.com/augustl/live-validations.git
+[submodule "vendor/plugins/db_populate"]
+	path = vendor/plugins/db_populate
+	url = git://github.com/ffmike/db-populate.git
+[submodule "vendor/plugins/fast_remote_cache"]
+	path = vendor/plugins/fast_remote_cache
+	url = git://github.com/37signals/fast_remote_cache.git
+[submodule "vendor/plugins/superdeploy"]
+	path = vendor/plugins/superdeploy
+	url = git://github.com/saizai/superdeploy.git
+[submodule "vendor/plugins/stringex"]
+	path = vendor/plugins/stringex
+	url = git://github.com/rsl/stringex.git
+[submodule "vendor/plugins/admin_data"]
+	path = vendor/plugins/admin_data
+	url = git://github.com/neerajdotname/admin_data.git
+[submodule "vendor/plugins/rubaidhstrano"]
+	path = vendor/plugins/rubaidhstrano
+	url = git://github.com/rubaidh/rubaidhstrano.git
+[submodule "vendor/plugins/paperclip"]
+	path = vendor/plugins/paperclip
+	url = git://github.com/thoughtbot/paperclip.git
+[submodule "vendor/plugins/object_daddy"]
+	path = vendor/plugins/object_daddy
+	url = git://github.com/flogic/object_daddy.git
+[submodule "vendor/plugins/time-warp"]
+	path = vendor/plugins/time-warp
+	url = git://github.com/iridesco/time-warp.git
+[submodule "vendor/plugins/rack-bug"]
+	path = vendor/plugins/rack-bug
+	url = git://github.com/brynary/rack-bug.git
+[submodule "vendor/plugins/shmacros"]
+	path = vendor/plugins/shmacros
+	url = git://github.com/maxim/shmacros.git
