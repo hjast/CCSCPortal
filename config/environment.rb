@@ -9,7 +9,6 @@ require File.join(File.dirname(__FILE__), 'boot')
 Rails::Initializer.run do |config|
   config.gem 'ffmike-query_trace', :emv => 'development', :lib => 'query_trace', :source => 'http://gems.github.com'
   config.gem 'binarylogic-searchlogic', :lib => 'searchlogic', :source => 'http://gems.github.com', :version => '~> 2.0'
-  config.gem 'jscruggs-metric_fu', :lib => 'metric_fu', :source => 'http://gems.github.com', :version => '~> 1.1'
   config.gem 'mislav-will_paginate', :lib => 'will_paginate', :source => 'http://gems.github.com', :version => '~> 2.2'
   config.gem 'authlogic', :version => '~> 2.0'
   # Settings in config/environments/* take precedence over those specified here.
